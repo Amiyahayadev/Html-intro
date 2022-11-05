@@ -5,6 +5,308 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Favourite Meal</title>
+    <style>
+      body {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin: 0;
+      }
+      main {
+        padding: 15px 8rem;
+      }
+      article > p {
+        text-align: justify;
+      }
+      header {
+        text-align: center;
+      }
+      h1 {
+        background-color: #f0806c;
+        margin-top: 0;
+      }
+      p,
+      li {
+        font-family: fantasy;
+        letter-spacing: 2px;
+      }
+      .bold {
+        font-family: initial;
+        font-weight: bold;
+      }
+
+      header > img {
+        max-width: 80px;
+        border-radius: 50%;
+        border: 4px solid #f5a495cc;
+      }
+      table {
+        border-collapse: collapse;
+        width: 70%;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      th,
+      td {
+        border-bottom: 1px solid;
+        padding: 8px 0;
+      }
+      .right {
+        text-align: right;
+      }
+      th {
+        text-align: left;
+      }
+      .food-img {
+        width: 270px;
+        height: 270px;
+      }
+      .food-img img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      p.img-caption {
+        width: 270px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin: 0;
+        padding: 8px 0;
+        text-align: center;
+        background-color: ghostwhite;
+      }
+      #card-images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      #card-images > div {
+        margin: 0 16px 16px 0;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Sweet And Sour Chicken Stir-fry</h1>
+      <p class="bold">My Favourite Meal</p>
+      <img src="../images/SS-Chicken-as-header.jpeg" alt="Recipe Image small" />
+    </header>
+    <main>
+      <section>
+        <article>
+          <h2>About recipe</h2>
+          <p>
+            Hello everyone! Today I'll be sharing with you my newest favourite
+            meal -
+            <span class="bold"><em>Sweet and sour chicken stir-fry!</em></span>
+            This meal is so scrumptious and savoury that when I first had it,
+            found my self asking for a second round! Ofcourse being a foodie, I
+            immediately searched for an easy recipe to try it myself at home.
+          </p>
+          <p>
+            The origin of sweet and sour chicken was in the 18th century or
+            earlier in China. It spread to the United States in the early 20th
+            century after the Chinese migrant gold miners and railroad workers
+            turned to food and drink as trades. Sweet and Sour Chicken is made
+            by batter-frying chicken and then tossing it in a quick and easy
+            sweet and sour sauce. Today Sweet and Sour is widely known as a food
+            and is generally popular in both the east and west. You can modify
+            the meat to be cooked to your liking such as pork, shrimp, snapper,
+            etc. So let's get started!
+          </p>
+        </article>
+      </section>
+      <section>
+        <h2>Ingredients</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Ingredients</th>
+              <th class="right">Measurement<small>(grams/cup)</small></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Boneless chicken in bite size pieces</td>
+              <td class="right">300g</td>
+            </tr>
+            <tr>
+              <td>All purpose flour</td>
+              <td class="right">3 tbsp</td>
+            </tr>
+            <tr>
+              <td>Cornflour</td>
+              <td class="right">2 tsp</td>
+            </tr>
+            <tr>
+              <td>Baking Powder</td>
+              <td class="right">1/4 tsp</td>
+            </tr>
+            <tr>
+              <td>Egg white</td>
+              <td class="right">1 egg</td>
+            </tr>
+            <tr>
+              <td>Chilled water</td>
+              <td class="right">4 tbsp</td>
+            </tr>
+            <tr>
+              <td>Powdered pepper</td>
+              <td class="right">1/2 tsp</td>
+            </tr>
+            <tr>
+              <td>salt to taste</td>
+              <td class="right">3/4 tsp</td>
+            </tr>
+            <tr>
+              <td>Tomato ketchup</td>
+              <td class="right">4 tbsp</td>
+            </tr>
+            <tr>
+              <td>Sugar</td>
+              <td class="right">3 tbsp</td>
+            </tr>
+            <tr>
+              <td>White vinegar</td>
+              <td class="right">3 tbsp</td>
+            </tr>
+            <tr>
+              <td>Dark Soy sauce</td>
+              <td class="right">3/4 tsp</td>
+            </tr>
+            <tr>
+              <td>Green and Red bell peppers cubed</td>
+              <td class="right">70g(1 cup)</td>
+            </tr>
+            <tr>
+              <td>Oil of your choice</td>
+              <td class="right">Enough for deep frying</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Preparation</h2>
+        <ul>
+          <li>
+            Wash and leave chicken to drain. Pat dry with a kitchen paper towel.
+          </li>
+          <li>
+            Marinate chicken with 1/2 tsp salt and pepper. Set aside for 20
+            mins.
+          </li>
+          <li>
+            In as small bowl, add tomato ketchup, sugar, white vinegar, and dark
+            soy sauce to make up the sweet n' sour sauce, give it as mix.
+          </li>
+          <li>
+            In another bowl, add all purpose flour, cornflour, baking powder,
+            1/4 tsp salt, egg white and chilled water, mix until smooth batter
+            is obtained.
+          </li>
+          <li>
+            Heat some oil for deep frying in a skillet or wok until it's medium
+            hot. Meanwhile, deep some of the marinated chicken pieces in the
+            batter and rub all over.
+          </li>
+          <li>
+            Drop them in the oil side by side, make sure to not crowd the
+            skillet or wok. Fry the chicken on medium heat for 1 minute without
+            turning them.
+          </li>
+          <li>
+            Start turning and frying for anout 4 to 5 minutes until golden in
+            color. Take it out and repeat with the next batch of chicken until
+            it's done. Remove and set aside in drainer.
+          </li>
+          <li>
+            Take a wok or pan, add 1/2 table spoon of oil, keep it on high heat,
+            then add the cubed bell pepprs.
+          </li>
+          <li>
+            Stir-fry on high heat for about 1 minute only then add the sweet n'
+            sour sauce mixture.
+          </li>
+          <li>
+            Continue to fry for 1-2 minutes until sauce becomes thick and
+            cooked.
+          </li>
+          <li>
+            Now add the fried chicken pieces, give it a thorough mix to coat
+            each chicken pieces well. This should take about 2 minutes
+          </li>
+          <li>Turn off heat. Serve hot with white rice.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Recipe gallery</h2>
+        <section id="card-images">
+          <div>
+            <div class="food-img">
+              <img
+                src="../images/Sweet-and-Sour-Chicken-1.jpeg"
+                alt="Sweet n' sour chicke image1"
+                width="270"
+                height="270"
+              />
+            </div>
+            <p class="img-caption">Figure one</p>
+          </div>
+          <div>
+            <div class="food-img">
+              <img
+                src="../images/sweet-and-sour-chicken-2.jpeg"
+                alt="Sweet n' sour chicke image2"
+                width="270"
+                height="270"
+              />
+            </div>
+            <p class="img-caption">Figure two</p>
+          </div>
+          <div>
+            <div class="food-img">
+              <img
+                src="../images/sweet-sour-chicken-3.png"
+                alt="Sweet n' sour chicke image3"
+                width="270"
+                height="270"
+              />
+            </div>
+            <p class="img-caption">Figure three</p>
+          </div>
+          <div>
+            <div class="food-img">
+              <img
+                src="../images/sweet-and-sour-chicken-4.jpeg"
+                alt="Sweet n' sour chicke image4"
+                width="270"
+                height="270"
+              />
+            </div>
+            <p class="img-caption">Figure four</p>
+          </div>
+          <div>
+            <div class="food-img">
+              <img
+                src="../images/Sweet-and-Sour-Chicken-5.jpeg"
+                alt="Sweet n' sour chicke image5"
+                width="270"
+                height="270"
+              />
+            </div>
+            <p class="img-caption">Figure five</p>
+          </div>
+          <div>
+            <div class="food-img">
+              <img
+                src="../images/sweet-and-sour-chicken-6.jpeg"
+                alt="Sweet n' sour chicke image6"
+                width="270"
+                height="270"
+              />
+            </div>
+            <p class="img-caption">Figure six</p>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
